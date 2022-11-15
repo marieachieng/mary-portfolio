@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mary Atieno</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body class="dark_theme">
+    <header class="nav_header">
+        
+            <nav class="container" id="navbar">
+                <a href="#" class="nav_logo">Atieno</a>
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list">
+                        <li class="nav_item"><a href="#home" class="nav_link">Home</a></li>
+                        <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+                        <li class="nav_item"><a href="#services" class="nav_link">Services</a></li>
+                        <li class="nav_item"><a href="#projects" class="nav_link">Projects</a></li>
+                        <li class="nav_item"><a href="blog.html" class="nav_link">Blog</a></li>
+                        <li class="nav_item"><a href="#contact" class="nav_link">Contact</a></li>
+                    </ul>
+    
+                    <div class="nav_close" id="nav-close">
+                        <i class="bx bx-x"></i>
+                    </div>
+                </div>
+    
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="bx bx-grid-alt"></i>
+                </div>
+            </nav>
+        
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="container">
+                <h1 class="h1">Home</h1>
+                <a href="#about" class="scroll_btn"><span></span>Scroll</a>
+            </div>
+        </section>
+
+        <section  class=" about container" id="about">
+            <h2 class="sect_title">About Me.</h2>
+            <div class="about_wrapper grid">
+                <div class="about_img">
+                    <img src="./assets/images/hero_bg.jpg" alt="Profile Photo">
+                </div>
+                <div class="about_content">
+                    <ul class="about_tabs">
+                        <li>
+                            <h3 data-target="#myself" class="tab about_active h3">Myself</h3>
+                        </li>
+                        <li >
+                            <h3 data-target="#education" class="tab h3">Education</h3>
+                        </li>
+                        <li >
+                            <h3 data-target="#skills" class="tab h3">Skills</h3>
+                        </li>
+                    </ul>
+                    <hr>
+                    <div class="tab_content">
+                        <div id="myself" data-content>
+                            I'm a Kenyan she/her living in Kenya. I enjoy turning complex problems into meaningful solutions through design and code. I focus on simplicity, thoughtfulnesss, accessibility and learning-based approach to my work.
+                        </div>
+    
+                        <div id="education" data-content class="about_active">
+                            <div class="timeline">
+                                <div class="timeline_item">
+                                    <div class="circle_dot"></div>
+                                    <span class="timeline_date">
+                                        <i class="bx bx-calendar text_sm"></i> 2018 - Present
+                                    </span>
+                                    <h4 class="timeline_title h4">Project Consultant</h4>
+                                    <p class="timeline_text">Integer placerat turpis sed dui blandit posuere. Curabitur ac pellentesque lorem. Pellentesque fringilla laoreet erat et scelerisque.</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div id="skills" data-content>
+                            <div class="skill_wrapper">
+                                <img src="./assets/images/html.png" alt="">
+                                <img src="./assets/images/css-3.png" alt="">
+                                <img src="./assets/images/java-script.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-secondary">Download CV</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="services container" id="services">
+            <h2 class="sect_title">Services.</h2>
+
+            <div class="service_wrapper grid">
+                <div class="service_item">
+                    <img src="./assets/images/web-design.png" alt="Web Designing">
+                    <h3 class="h3">Web Designing</h3>
+                    <p class="text_tiny">HTML/CSS/JAVASCRIP</p>
+                </div>
+                <div class="service_item">
+                    <img src="./assets/images/web-development.png" alt="Web Development">
+                    <h3 class="h3">Web Development</h3>
+                    <p class="text_tiny">PHP/PYTHON</p>
+                </div>
+                <div class="service_item">
+                    <img src="./assets/images/app-development.png" alt="App Development">
+                    <h3 class="h3">Application Development</h3>
+                    <p class="text_tiny">ANDROID</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects container" id="projects">
+            <h2 class="sect_title">Projects</h2>
+           <div class="btn_flex">
+                <a href="portfolio.html" class="btn btn-secondary">View All</a>
+           </div>
+
+            <div class="project_wrapper grid">
+                <div class="project_card">
+                    <div class="project_card_front">
+                        <img src="./assets/images/hero_bg.jpg" alt="">
+                    </div>
+                    <div class="project_card_back">
+                        <div class="project_detail">
+                            <h3 class="h3">Project 1</h3>
+                            <p class="text_tiny">HTML/CSS</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project_card">
+                    <div class="project_card_inner">
+                        <div class="project_card_front">
+                            <img src="./assets/images/web-design.png" alt="">
+                        </div>
+                        <div class="project_card_back">
+                            <div class="project_detail">
+                                <h3 class="h3">Project 2</h3>
+                                <p class="text_tiny">HTML/CSS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project_card">
+                    <div class="project_card_inner">
+                        <div class="project_card_front">
+                            <img src="./assets/images/hero_bg.jpg" alt="">
+                        </div>
+                        <div class="project_card_back">
+                            <div class="project_detail">
+                                <h3 class="h3">Project 3</h3>
+                                <p class="text_tiny">HTML/CSS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project_card">
+                    <div class="project_card_inner">
+                        <div class="project_card_front">
+                            <img src="./assets/images/hero_bg.jpg" alt="">
+                        </div>
+                        <div class="project_card_back">
+                            <div class="project_detail">
+                                <h3 class="h3">Project 4</h3>
+                                <p class="text_tiny">HTML/CSS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project_card">
+                    <div class="project_card_inner">
+                        <div class="project_card_front">
+                            <img src="./assets/images/hero_bg.jpg" alt="">
+                        </div>
+                        <div class="project_card_back">
+                            <div class="project_detail">
+                                <h3 class="h3">Project 4</h3>
+                                <p class="text_tiny">HTML/CSS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project_card">
+                    <div class="project_card_inner">
+                        <div class="project_card_front">
+                            <img src="./assets/images/hero_bg.jpg" alt="">
+                        </div>
+                        <div class="project_card_back">
+                            <div class="project_detail">
+                                <h3 class="h3">Project 4</h3>
+                                <p class="text_tiny">HTML/CSS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project_card">
+                    <div class="project_card_inner">
+                        <div class="project_card_front">
+                            <img src="./assets/images/web-design.png" alt="">
+                        </div>
+                        <div class="project_card_back">
+                            <div class="project_detail">
+                                <h3 class="h3">Project 4</h3>
+                                <p class="text_tiny">HTML/CSS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container" id="contact">
+            <h2 class="sect_title">Contact Me.</h2>
+
+            <div class="contact_wrapper grid">
+                <div class="contact_info">
+                    <div class="contact_card">
+                        <div>
+                            <i class="bx bxs-map contact_icon"></i>
+                            <h4 class="h4">My Location</h3>
+                        </div>
+    
+                        <span class="text_tiny">Nairobi, Kenya</span>
+                    </div>
+                    <div class="contact_card">
+                        <div>
+                            <i class="bx bxs-envelope contact_icon"></i>
+                            <h4 class="h4">Email Me</h4>
+                        </div>
+    
+                        <span class="text_tiny">maryatieno463@gmail.com</span>
+                    </div>
+    
+                    <div class="contact_card">
+                        <div>
+                            <i class="bx bxs-mobile contact_icon"></i>
+                            <h4 class="h4">Give a Call</h4>
+                        </div>
+    
+                        <span class="text_tiny">+2547 970 40917</span>
+                    </div>
+                    <div class="contact_social">
+						<span class="contact_social_follow">Follow Me on</span>
+
+						<div class="contact_social_links grid">
+							<a href="" target="_blank" class="social_link">
+								<i class='bx bxl-facebook-circle'></i>
+							</a>
+							<a href="" target="_blank" class="social_link">
+								<i class="bx bxl-instagram-alt"></i>
+							</a>
+							<a href="" target="_blank" class="social_link">
+								<i class="bx bxl-linkedin-square"></i>
+							</a>
+						</div>
+					</div>
+                </div>
+    
+                <div class="contact_form_wrapper">
+                    <h3 class="h3">Drop a message...</h3>
+                    <form action="">
+                        <div class="contact_form-group">
+                            <div class="contact_form-div">
+                                <label for="" class="contact_form-tag">Name</label>
+                                <input type="text" class="contact_form-input" placeholder="Insert your name">
+                            </div>
+    
+                            <div class="contact_form-div">
+                                <label for="" class="contact_form-tag">Email</label>
+                                <input type="email" class="contact_form-input" placeholder="Insert your email">
+                            </div>							
+                        </div>
+    
+                        <div class="contact_form-div">
+                            <label for="" class="contact_form-tag">Subject</label>
+                            <input type="text" class="contact_form-input" placeholder="Insert your subject">
+                        </div>
+    
+                        <div class="contact_form-div contact_form-area">
+                            <label for="" class="contact_form-tag">Message</label>
+                            <textarea cols="20" rows="10" class="contact_form-input" placeholder="Write your Message"></textarea>
+                        </div>		
+    
+                        <button class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>            
+            </div>
+        </section>
+    </main>
+
+    <footer>
+       <div class="container">
+            <div class="footer_wrapper grid">
+                <div class="copyright">
+                <p class="copyright_text">Copyright &copy; 2017 All Rights Reserved by 
+            <a href="#">Mary Atieno</a>.
+                </p>
+                </div>
+    
+                <div class="footer_social">
+                <ul class="footer_social_links">
+                    <li><a class="social_link" href="#"><i class="bx bxl-facebook-circle"></i></a></li>
+                    <li><a class="social_link" href="#"><i class="bx bxl-instagram-alt"></i></a></li>
+                    <li><a class="social_link" href="#"><i class="bx bxl-linkedin-square"></i></a></li>
+                    <li><a class="social_link" href="#"><i class='bx bxl-dribbble'></i></a></li>   
+                </ul>
+                </div>
+        </div>
+       </div>
+    </footer>
+
+    <div id="progress">
+        <span id="progress_value"><i class='bx bx-up-arrow-alt'></i></span>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
